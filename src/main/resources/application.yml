@@ -1,0 +1,27 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: main
+      username: hOlRZwomSdxqUHXTsYXfxYUQ
+      password: Rg4CEtQWjQ6ycy78q9eHk_0HrvCrTh8j5EJRFTFXNI,dXC93sRNE96W3fOq_+gX0_DLHz2Ljl1B0DPI5Eon_2AZCuH99Knf9DhX+mbPT7KIMuc_0U9Mm8ZSeC6hsITWN
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s 
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+  main.allow-circular-references: true  
+
+datastax.astra:
+  secure-connect-bundle: secure-connect.zip
+
+astra.db:
+  id: 92b49874-e5b0-4aa8-8ddf-e56b2832ab56-1
+  region: asia-south1
+  keyspace: main
+  application.token: AstraCS:hOlRZwomSdxqUHXTsYXfxYUQ:fc323230dffeb7f0aa9e96f375b1079cbd523b254023fb1bc56cea3c1c031eb6
+
+datadump.location:
+  author: /Users/abhishekkhelge/Documents/test-authors.txt
+  work: /Users/abhishekkhelge/Documents/test-works.txt
+
